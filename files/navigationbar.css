@@ -1,4 +1,4 @@
-/* the position */
+/* start the position */
 #div_navigationbarRoot{
     position:fixed;
 }
@@ -23,7 +23,8 @@
 #div_navigationbar_right{
     text-align:right;
 }
-/* the color */
+/* end the position */
+/* start the color */
 #div_navigationbar{
     /*background-color:rgba(255,255,255,0.6);*/
     background-color:gray;
@@ -40,17 +41,20 @@
 #div_navigationbarRoot>div a.functionbutton.iconbutton:hover{
     background-color:darkgray;
 }
-/* text style*/
+/* end the color */
+/* start text style*/
 #div_navigationbarRoot>div a.functionbutton.textbutton{
     text-transform:uppercase;
     font-family:font_sansserif;
     font-weight:bold;
 }
-/* icon style */
+/* end text style*/
+/* start icon style */
 #div_navigationbarRoot>div a.functionbutton.iconbutton{
     height:24px;
 }
-/* something else*/
+/* end icon style */
+/* start something else*/
 #div_navigationbarRoot>div{
     padding:4px;
 }
@@ -59,3 +63,4 @@
     display:inline-block;
     vertical-align:middle;
 }
+/* end something else*/
